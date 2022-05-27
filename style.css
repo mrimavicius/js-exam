@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+section {
+    background: #2155CD;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+    border: 0.3em solid #E8F9FD;
+    text-decoration: none;
+    border-radius: 4em;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #E8F9FD;
+    color: #2155CD;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #2155CD;
+    color: #E8F9FD;
+}
+
+@media (max-width: 600px) {
+    a {
+        font-size: 2em;
+        letter-spacing: normal;
+    }
+}
